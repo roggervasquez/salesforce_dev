@@ -1,7 +1,9 @@
 import { LightningElement } from 'lwc';
 export default class HelloWorld extends LightningElement {
-  greeting = 'Universe ss';
-  changeHandler(event) {
+   
+  greeting = 'Universe';
+
+  handleChange(event) {
     this.greeting = event.target.value;
   }
 }
